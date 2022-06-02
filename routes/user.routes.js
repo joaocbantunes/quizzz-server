@@ -1,0 +1,49 @@
+const router = require("express").Router();
+const User = require("../models/User.model");
+
+router.get("/user/:userId", (req, res, next) => {
+  const { userId } = req.params;
+  User.findById(userId)
+    .then((response) => res.json(response))
+    .catch((err) => res.json(err));
+});
+
+router.delete("/user/:userId/delete", (req, res, next) => {
+  const { userId } = req.params;
+  //const { _id } = req.payload;
+  User.findByIdAndDelete(userId)
+    .then((response) => res.json(response))
+    .catch((err) => res.json(err));
+});
+
+router.put("/user/:userId", (req, res, next) => {
+  const { userId } = req.params;
+  const { username, email, password } = req.body;
+  if (req.file) {
+    User.findByIdAndUpdate(
+      userId,
+      {
+        username,
+        email,
+        imageUrl: req.file.path,
+      },
+      { new: true }
+    )
+      .then((response) => res.json(response))
+      .catch((err) => res.status(400).json({ message: "No user updated" }));
+  } else {
+    User.findByIdAndUpdate(
+      userId,
+      {
+        username,
+        email,
+      },
+      { new: true }
+    )
+
+      .then((response) => res.json(response))
+      .catch((err) => res.status(400).json({ message: "No user updated" }));
+  }
+});
+
+module.exports = router;

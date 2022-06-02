@@ -1,5 +1,9 @@
 const router = require("express").Router();
 
+const jwt = require("jsonwebtoken");
+
+const { isAuthenticated } = require("../middleware/jwt.middleware");
+
 // ℹ️ Handles password encryption
 const bcrypt = require("bcrypt");
 const mongoose = require("mongoose");
@@ -10,16 +14,16 @@ const saltRounds = 10;
 // Require the User model in order to interact with the database
 const User = require("../models/User.model");
 
-// Require necessary (isLoggedOut and isLiggedIn) middleware in order to control access to specific routes
-const isLoggedOut = require("../middleware/isLoggedOut");
-const isLoggedIn = require("../middleware/isLoggedIn");
+// Require necessary (isLoggedOut and isLiggedIn) middleware in order to
 
-router.get("/loggedin", (req, res) => {
-  res.json(req.user);
+router.get("/verify", isAuthenticated, (req, res, next) => {
+  console.log(req.payload);
+
+  res.status(200).json(req.payload);
 });
 
-router.post("/signup", isLoggedOut, (req, res) => {
-  const { username, password } = req.body;
+router.post("/signup", (req, res) => {
+  const { username, password, email } = req.body;
 
   if (!username) {
     return res
@@ -33,10 +37,13 @@ router.post("/signup", isLoggedOut, (req, res) => {
     });
   }
 
+  if (!email) {
+    return res.status(400).json({ errorMessage: "Please enter a valid email" });
+  }
+
   //   ! This use case is using a regular expression to control for special characters and min length
   /*
   const regex = /(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}/;
-
   if (!regex.test(password)) {
     return res.status(400).json( {
       errorMessage:
@@ -61,11 +68,10 @@ router.post("/signup", isLoggedOut, (req, res) => {
         return User.create({
           username,
           password: hashedPassword,
+          email,
         });
       })
       .then((user) => {
-        // Bind the user to the session object
-        req.session.user = user;
         res.status(201).json(user);
       })
       .catch((error) => {
@@ -83,7 +89,7 @@ router.post("/signup", isLoggedOut, (req, res) => {
   });
 });
 
-router.post("/login", isLoggedOut, (req, res, next) => {
+router.post("/login", (req, res, next) => {
   const { username, password } = req.body;
 
   if (!username) {
@@ -113,9 +119,17 @@ router.post("/login", isLoggedOut, (req, res, next) => {
         if (!isSamePassword) {
           return res.status(400).json({ errorMessage: "Wrong credentials." });
         }
-        req.session.user = user;
-        // req.session.user = user._id; // ! better and safer but in this case we saving the entire user object
-        return res.json(user);
+
+        const { _id, username } = user;
+
+        const payload = { _id, username };
+
+        const authToken = jwt.sign(payload, process.env.TOKEN_SECRET, {
+          algorithm: "HS256",
+          expiresIn: "6h",
+        });
+
+        return res.status(200).json({ authToken });
       });
     })
 
@@ -125,15 +139,6 @@ router.post("/login", isLoggedOut, (req, res, next) => {
       next(err);
       // return res.status(500).render("login", { errorMessage: err.message });
     });
-});
-
-router.get("/logout", isLoggedIn, (req, res) => {
-  req.session.destroy((err) => {
-    if (err) {
-      return res.status(500).json({ errorMessage: err.message });
-    }
-    res.json({ message: "Done" });
-  });
 });
 
 module.exports = router;
