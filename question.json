@@ -1,0 +1,442 @@
+[
+    {
+      "question": "JavaScript is the same as Java.",
+      "answers": [
+        {
+          "answer": "False",
+          "isCorrect": "true"
+        },
+        {
+          "answer": "True",
+          "isCorrect": "false"
+        }
+      ],
+      "tags": [
+        "JavaScript"
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which operator is used to assign a value to a variable?",
+      "answers": [
+        {
+          "answer": "x",
+          "isCorrect": "false"
+        },
+        {
+          "answer": "-",
+          "isCorrect": "false"
+        },
+        {
+          "answer": "=",
+          "isCorrect": "true"
+        },
+        {
+          "answer": "*",
+          "isCorrect": "false"
+        }
+      ],
+      "tags": [
+        "JavaScript"
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is the correct JavaScript syntax for opening a new window called \"w2\" ?",
+      "answers": [
+        {
+          "answer": "w2 = window.new(\"http://www.w3schools.com\");",
+          "isCorrect": "false"
+        },
+        {
+          "answer": "w2 = window.open(\"http://www.w3schools.com\");",
+          "isCorrect": "true"
+        }
+      ],
+      "tags": [
+        "JavaScript"
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "question": "How can you add a comment in a JavaScript?",
+      "answers": [
+        {
+          "answer": "//This is a comment",
+          "isCorrect": "true"
+        },
+        {
+          "answer": "'This is a comment",
+          "isCorrect": "false"
+        },
+        {
+          "answer": "<!--This is a comment-->",
+          "isCorrect": "false"
+        }
+      ],
+      "tags": [
+        "JavaScript"
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "question": "How does a WHILE loop start?",
+      "answers": [
+        {
+          "answer": "while (i <= 10)",
+          "isCorrect": "true"
+        },
+        {
+          "answer": "while i = 1 to 10",
+          "isCorrect": "false"
+        },
+        {
+          "answer": "while (i <= 10; i++)",
+          "isCorrect": "false"
+        }
+      ],
+      "tags": [
+        "JavaScript"
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Inside which HTML element do we put the JavaScript?",
+      "answers": [
+        {
+          "answer": "<javascript>",
+          "isCorrect": "false"
+        },
+        {
+          "answer": "<script>",
+          "isCorrect": "true"
+        },
+        {
+          "answer": "<js>",
+          "isCorrect": "false"
+        },
+        {
+          "answer": "<scripting>",
+          "isCorrect": "false"
+        }
+      ],
+      "tags": [
+        "JavaScript"
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "question": "How to write an IF statement in JavaScript?",
+      "answers": [
+        {
+          "answer": "if i = 5 then",
+          "isCorrect": "false"
+        },
+        {
+          "answer": "if i = 5",
+          "isCorrect": "false"
+        },
+        {
+          "answer": "if i == 5 then",
+          "isCorrect": "false"
+        },
+        {
+          "answer": "if (i == 5)",
+          "isCorrect": "true"
+        }
+      ],
+      "tags": [
+        "JavaScript"
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is the correct JavaScript syntax to change the content of the HTML element below?",
+      "answers": [
+        {
+          "answer": "#demo.innerHTML = \"Hello World!\";",
+          "isCorrect": "false"
+        },
+        {
+          "answer": "document.getElementById(\"demo\").innerHTML = \"Hello World!\";",
+          "isCorrect": "true"
+        },
+        {
+          "answer": "document.getElement(\"p\").innerHTML = \"Hello World!\";",
+          "isCorrect": "false"
+        },
+        {
+          "answer": "document.getElementByName(\"p\").innerHTML = \"Hello World!\";",
+          "isCorrect": "false"
+        }
+      ],
+      "tags": [
+        "JavaScript"
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "question": "How do you declare a JavaScript variable?",
+      "answers": [
+        {
+          "answer": "v carName;",
+          "isCorrect": "false"
+        },
+        {
+          "answer": "variable carName;",
+          "isCorrect": "false"
+        },
+        {
+          "answer": "var carName;",
+          "isCorrect": "true"
+        }
+      ],
+      "tags": [
+        "JavaScript"
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is the correct way to write a JavaScript array?",
+      "answers": [
+        {
+          "answer": "var colors = 1 = (\"red\"), 2 = (\"green\"), 3 = (\"blue\")",
+          "isCorrect": "false"
+        },
+        {
+          "answer": "var colors = \"red\", \"green\", \"blue\"",
+          "isCorrect": "false"
+        },
+        {
+          "answer": "var colors = [\"red\", \"green\", \"blue\"]",
+          "isCorrect": "true"
+        },
+        {
+          "answer": "var colors = (1:\"red\", 2:\"green\", 3:\"blue\")",
+          "isCorrect": "false"
+        }
+      ],
+      "tags": [
+        "JavaScript"
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which event occurs when the user clicks on an HTML element?",
+      "answers": [
+        {
+          "answer": "onchange",
+          "isCorrect": "false"
+        },
+        {
+          "answer": "onmouseclick",
+          "isCorrect": "false"
+        },
+        {
+          "answer": "onmouseover",
+          "isCorrect": "false"
+        },
+        {
+          "answer": "onclick",
+          "isCorrect": "true"
+        }
+      ],
+      "tags": [
+        "JavaScript"
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "question": "The external JavaScript file must contain the <script> tag.",
+      "answers": [
+        {
+          "answer": "True",
+          "isCorrect": "false"
+        },
+        {
+          "answer": "False",
+          "isCorrect": "true"
+        }
+      ],
+      "tags": [
+        "JavaScript"
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "question": "How do you create a function in JavaScript?",
+      "answers": [
+        {
+          "answer": "function myFunction()",
+          "isCorrect": "true"
+        },
+        {
+          "answer": "function:myFunction()",
+          "isCorrect": "false"
+        },
+        {
+          "answer": "function = myFunction()",
+          "isCorrect": "false"
+        }
+      ],
+      "tags": [
+        "JavaScript"
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "question": "How can you detect the client's browser name?",
+      "answers": [
+        {
+          "answer": "browser.name",
+          "isCorrect": "false"
+        },
+        {
+          "answer": "navigator.appName",
+          "isCorrect": "true"
+        },
+        {
+          "answer": "client.navName",
+          "isCorrect": "false"
+        }
+      ],
+      "tags": [
+        "JavaScript"
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Where is the correct place to insert a JavaScript?",
+      "answers": [
+        {
+          "answer": "The <head> section",
+          "isCorrect": "false"
+        },
+        {
+          "answer": "The <body> section",
+          "isCorrect": "false"
+        },
+        {
+          "answer": "The <footer>",
+          "isCorrect": "false"
+        },
+        {
+          "answer": "Both the <head> section and the <body> section are correct",
+          "isCorrect": "true"
+        }
+      ],
+      "tags": [
+        "JavaScript"
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Is JavaScript case-sensitive?",
+      "answers": [
+        {
+          "answer": "True",
+          "isCorrect": "true"
+        },
+        {
+          "answer": "False",
+          "isCorrect": "false"
+        }
+      ],
+      "tags": [
+        "JavaScript"
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "question": "How does a FOR loop start?",
+      "answers": [
+        {
+          "answer": "for i = 1 to 5",
+          "isCorrect": "false"
+        },
+        {
+          "answer": "for (i = 0; i <= 5; i++)",
+          "isCorrect": "true"
+        },
+        {
+          "answer": "for (i <= 5; i++)",
+          "isCorrect": "false"
+        },
+        {
+          "answer": "for (i = 0; i <= 5)",
+          "isCorrect": "false"
+        }
+      ],
+      "tags": [
+        "JavaScript"
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "question": "How to write an IF statement for executing some code if \"i\" is NOT equal to 5?",
+      "answers": [
+        {
+          "answer": "if (i != 5)",
+          "isCorrect": "true"
+        },
+        {
+          "answer": "if (i <> 5)",
+          "isCorrect": "false"
+        },
+        {
+          "answer": "if i =! 5 then",
+          "isCorrect": "false"
+        },
+        {
+          "answer": "if i <> 5",
+          "isCorrect": "false"
+        }
+      ],
+      "tags": [
+        "JavaScript"
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "question": "How to insert a comment that has more than one line?",
+      "answers": [
+        {
+          "answer": "/*This comment has more than one line*/",
+          "isCorrect": "true"
+        },
+        {
+          "answer": "<!--This comment has more than one line-->",
+          "isCorrect": "false"
+        },
+        {
+          "answer": "//This comment has more than one line//",
+          "isCorrect": "false"
+        }
+      ],
+      "tags": [
+        "JavaScript"
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What will the following code return: Boolean(10 > 9)",
+      "answers": [
+        {
+          "answer": "true",
+          "isCorrect": "true"
+        },
+        {
+          "answer": "NaN",
+          "isCorrect": "false"
+        },
+        {
+          "answer": "false",
+          "isCorrect": "false"
+        }
+      ],
+      "tags": [
+        "JavaScript"
+      ],
+      "difficulty": "Easy"
+    }
+  ]

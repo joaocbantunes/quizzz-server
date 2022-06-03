@@ -7,19 +7,10 @@ const questionSchema = new Schema({
   question: {
     type: String,
   },
-  answers: [
-    {
-      type: String,
-    },
-  ],
-  correct_answers: [
-    {
-      type: String,
-    },
-  ],
-  correct_answer: {
-    type: String,
-  },
+  answers: [{
+    answer: String,
+    isCorrect: Boolean
+  }],
   tags: [
     {
       type: String,
