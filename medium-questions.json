@@ -1,0 +1,454 @@
+[
+    {
+      "question": "Which method is used to get the year of a date as a four-digit number?",
+      "answers": [
+        {
+          "answer": "getYear()",
+          "isCorrect": "false"
+        },
+        {
+          "answer": "fullYear()",
+          "isCorrect": "false"
+        },
+        {
+            "answer": "getFullYear()",
+            "isCorrect": "true"
+          },
+          {
+            "answer": "getfullyear()",
+            "isCorrect": "false"
+          }
+      ],
+      "tags": [
+        "JavaScript"
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What does the Date object's method getTime() return?",
+      "answers": [
+        {
+          "answer": "Date in DD-MM-YYYY format",
+          "isCorrect": "false"
+        },
+        {
+          "answer": "Date in DD MON YYYY format",
+          "isCorrect": "false"
+        },
+        {
+          "answer": "Date in MON, DD YYYY format",
+          "isCorrect": "false"
+        },
+        {
+          "answer": "Number of milliseconds since January 1, 1970",
+          "isCorrect": "true"
+        }
+      ],
+      "tags": [
+        "JavaScript"
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "question": "The internal clock in JavaScript counts from midnight _____",
+      "answers": [
+        {
+          "answer": "January 1, 1972",
+          "isCorrect": "false"
+        },
+        {
+          "answer": "January 1, 1947",
+          "isCorrect": "false"
+        },
+        {
+            "answer": "January 1, 1980",
+            "isCorrect": "false"
+        },
+        {
+            "answer": "January 1, 1970",
+            "isCorrect": "true"
+        }
+      ],
+      "tags": [
+        "JavaScript"
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "question": "Which JavaScript method is used to convert a date to a UTC string (a date display standard)?",
+      "answers": [
+        {
+          "answer": "toUTCString()",
+          "isCorrect": "true"
+        },
+        {
+          "answer": "'toUtcString()",
+          "isCorrect": "false"
+        },
+        {
+          "answer": "utcString()",
+          "isCorrect": "false"
+        },
+        {
+            "answer": "toutcstring()",
+            "isCorrect": "false"
+        }
+      ],
+      "tags": [
+        "JavaScript"
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "question": "Which JavaScript method is used to call a function (a callback function) once for each array element?",
+      "answers": [
+        {
+          "answer": "for()",
+          "isCorrect": "false"
+        },
+        {
+          "answer": "traverse()",
+          "isCorrect": "false"
+        },
+        {
+          "answer": "forEach()",
+          "isCorrect": "true"
+        },
+        {
+            "answer": "foreach()",
+            "isCorrect": "false"
+        }
+      ],
+      "tags": [
+        "JavaScript"
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "question": "Which JavaScript method is used to get a number as a string?",
+      "answers": [
+        {
+          "answer": "toString()",
+          "isCorrect": "true"
+        },
+        {
+          "answer": "intToString()",
+          "isCorrect": "false"
+        },
+        {
+          "answer": "parseInteger()",
+          "isCorrect": "false"
+        },
+        {
+          "answer": "All of the above",
+          "isCorrect": "false"
+        }
+      ],
+      "tags": [
+        "JavaScript"
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "question": "Which is/are the valid JavaScript method(s) to extract string parts?",
+      "answers": [
+        {
+          "answer": "slice(start, end)",
+          "isCorrect": "false"
+        },
+        {
+          "answer": "substring(start, end)",
+          "isCorrect": "false"
+        },
+        {
+          "answer": "substr(start, length)",
+          "isCorrect": "false"
+        },
+        {
+          "answer": "All of the above",
+          "isCorrect": "true"
+        }
+      ],
+      "tags": [
+        "JavaScript"
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "question": "In JavaScript a variable contains one value while an object may contain ___",
+      "answers": [
+        {
+          "answer": "One value",
+          "isCorrect": "false"
+        },
+        {
+          "answer": "Two values",
+          "isCorrect": "false"
+        },
+        {
+          "answer": "Three values",
+          "isCorrect": "false"
+        },
+        {
+          "answer": "Many values",
+          "isCorrect": "true"
+        }
+      ],
+      "tags": [
+        "JavaScript"
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "question": "Can we use a function as a variable value?",
+      "answers": [
+        {
+          "answer": "Yes",
+          "isCorrect": "true"
+        },
+        {
+          "answer": "No",
+          "isCorrect": "false"
+        }
+      ],
+      "tags": [
+        "JavaScript"
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "question": "Which is the correct syntax of JavaScript typeof operator?",
+      "answers": [
+        {
+          "answer": "typeof variable/value",
+          "isCorrect": "false"
+        },
+        {
+          "answer": "typeof(variable/value)",
+          "isCorrect": "false"
+        },
+        {
+          "answer": "Both A. and B.",
+          "isCorrect": "true"
+        },
+        {
+          "answer": "None of the above",
+          "isCorrect": "false"
+        }
+      ],
+      "tags": [
+        "JavaScript"
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "question": "Which JavaScript operator is used to determine the type of a variable?",
+      "answers": [
+        {
+          "answer": "typeof",
+          "isCorrect": "true"
+        },
+        {
+          "answer": "TypeOf",
+          "isCorrect": "false"
+        },
+        {
+          "answer": "typeOf",
+          "isCorrect": "false"
+        },
+        {
+          "answer": "sizeof",
+          "isCorrect": "true"
+        }
+      ],
+      "tags": [
+        "JavaScript"
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "question": "JavaScript types are _____.",
+      "answers": [
+        {
+          "answer": "Static",
+          "isCorrect": "false"
+        },
+        {
+          "answer": "Dynamic",
+          "isCorrect": "true"
+        } 
+      ],
+      "tags": [
+        "JavaScript"
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "question": "Does JavaScript support increment (++) and decrements (--) Operators?",
+      "answers": [
+        {
+          "answer": "Yes",
+          "isCorrect": "true"
+        },
+        {
+          "answer": "No",
+          "isCorrect": "false"
+        }
+      ],
+      "tags": [
+        "JavaScript"
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "question": "Which is the exponentiation operator in JavaScript?",
+      "answers": [
+        {
+          "answer": "exp()",
+          "isCorrect": "false"
+        },
+        {
+          "answer": "**",
+          "isCorrect": "true"
+        },
+        {
+          "answer": "^",
+          "isCorrect": "false"
+        },
+        {
+            "answer": "pow",
+            "isCorrect": "false"
+        }
+      ],
+      "tags": [
+        "JavaScript"
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "question": "Can be redeclare a variable that is declared with let keyword?",
+      "answers": [
+        {
+          "answer": "Yes",
+          "isCorrect": "false"
+        },
+        {
+          "answer": "No",
+          "isCorrect": "true"
+        }
+      ],
+      "tags": [
+        "JavaScript"
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "question": "Is JavaScript case-sensitive?",
+      "answers": [
+        {
+          "answer": "True",
+          "isCorrect": "true"
+        },
+        {
+          "answer": "False",
+          "isCorrect": "false"
+        }
+      ],
+      "tags": [
+        "JavaScript"
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "question": "Can be redeclare a variable that is declared with var keyword?",
+      "answers": [
+        {
+          "answer": "Yes",
+          "isCorrect": "true"
+        },
+        {
+          "answer": "No",
+          "isCorrect": "false"
+        }
+      ],
+      "tags": [
+        "JavaScript"
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the default value of an uninitialized variable?",
+      "answers": [
+        {
+          "answer": "0",
+          "isCorrect": "false"
+        },
+        {
+          "answer": "undefined",
+          "isCorrect": "true"
+        },
+        {
+          "answer": "null",
+          "isCorrect": "false"
+        },
+        {
+          "answer": "NaN",
+          "isCorrect": "false"
+        }
+      ],
+      "tags": [
+        "JavaScript"
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "question": "Which is the correct syntax to declare a constant in JavaScript?",
+      "answers": [
+        {
+          "answer": "const constant_name;",
+          "isCorrect": "false"
+        },
+        {
+          "answer": "constant_name const;",
+          "isCorrect": "false"
+        },
+        {
+          "answer": "constant_name const = value;",
+          "isCorrect": "false"
+        },
+        {
+            "answer": "const constant_name = value;",
+            "isCorrect": "true"
+          }
+      ],
+      "tags": [
+        "JavaScript"
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "question": "The const keyword is used to define a ______.",
+      "answers": [
+        {
+          "answer": "Function scopes variable",
+          "isCorrect": "false"
+        },
+        {
+          "answer": "Block scoped variable",
+          "isCorrect": "false"
+        },
+        {
+          "answer": "Constant",
+          "isCorrect": "true"
+        },
+        {
+            "answer": "Constant with no initial value",
+            "isCorrect": "false"
+          }
+      ],
+      "tags": [
+        "JavaScript"
+      ],
+      "difficulty": "Medium"
+    }
+  ]
