@@ -5,20 +5,30 @@ const Question = require("../models/Question.model");
 const Quiz = require("../models/Quiz.model");
 
 router.post("/quiz", (req, res, next) => {
-  const {title} = req.body
-  
-  Question.find({})
-  .then((allQuestions) => {
+  const { title } = req.body;
+
+  Question.find({}).then((allQuestions) => {
     let randomArr = [];
     for (let i = 0; i <= 10; i++) {
       const random = Math.floor(Math.random() * allQuestions.length);
       randomArr.unshift(allQuestions[random]);
     }
-    return Quiz.create({title, questions: randomArr})
-    .then((createdQuiz) => {
-      res.json(createdQuiz)
+    return Quiz.create({ title, questions: randomArr }).then((createdQuiz) => {
+      res.json(createdQuiz);
+    });
+  });
+});
+
+router.get("/quiz/:id", (req, res, next) => {
+  const { id } = req.params;
+  console.log('quiz id',id)
+  Quiz.findById(id)
+  .populate('questions')
+    .then((allQuiz) => {
+      console.log(allQuiz);
+      res.json(allQuiz);
     })
-  })
+    .catch((err) => res.json(err));
 });
 
 router.get("/quiz", (req, res, next) => {
@@ -26,6 +36,7 @@ router.get("/quiz", (req, res, next) => {
     .then((allQuiz) => res.json(allQuiz))
     .catch((err) => res.json(err));
 });
+
 
 router.delete("/quiz/:_id/delete", (req, res, next) => {
   const { _id } = req.params;

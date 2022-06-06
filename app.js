@@ -25,10 +25,10 @@ const authRoutes = require("./routes/auth.routes");
 app.use("/auth", authRoutes);
 
 const quizRoutes = require("./routes/quiz.routes");
-app.use("/api", quizRoutes);
+app.use("/api", isAuthenticated, quizRoutes);
 
 const userRoutes = require("./routes/user.routes");
-app.use("/api", userRoutes);
+app.use("/api", isAuthenticated, userRoutes);
 
 // ❗ To handle errors. Routes that don't exist or errors that you handle in specific routes
 require("./error-handling")(app);
