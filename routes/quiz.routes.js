@@ -21,11 +21,9 @@ router.post("/quiz", (req, res, next) => {
 
 router.get("/quiz/:id", (req, res, next) => {
   const { id } = req.params;
-  console.log('quiz id',id)
   Quiz.findById(id)
-  .populate('questions')
+    .populate("questions")
     .then((allQuiz) => {
-      console.log(allQuiz);
       res.json(allQuiz);
     })
     .catch((err) => res.json(err));
@@ -36,7 +34,6 @@ router.get("/quiz", (req, res, next) => {
     .then((allQuiz) => res.json(allQuiz))
     .catch((err) => res.json(err));
 });
-
 
 router.delete("/quiz/:_id/delete", (req, res, next) => {
   const { _id } = req.params;
