@@ -4,10 +4,44 @@ const authRoutes = require("./auth.routes");
 const Question = require("../models/Question.model");
 const Quiz = require("../models/Quiz.model");
 
-router.post("/quiz", (req, res, next) => {
+router.post("/quiz-easy", (req, res, next) => {
   const { title } = req.body;
 
-  Question.find({}).then((allQuestions) => {
+  Question.find({difficulty: "Easy"})
+  .then((allQuestions) => {
+    let randomArr = [];
+    for (let i = 0; i <= 10; i++) {
+      const random = Math.floor(Math.random() * allQuestions.length);
+      randomArr.unshift(allQuestions[random]);
+    }
+    return Quiz.create({ title, questions: randomArr })
+    .then((createdQuiz) => {
+      res.json(createdQuiz);
+    });
+  });
+});
+
+router.post("/quiz-medium", (req, res, next) => {
+  const { title } = req.body;
+
+  Question.find({difficulty: "Medium"})
+  .then((allQuestions) => {
+    let randomArr = [];
+    for (let i = 0; i <= 10; i++) {
+      const random = Math.floor(Math.random() * allQuestions.length);
+      randomArr.unshift(allQuestions[random]);
+    }
+    return Quiz.create({ title, questions: randomArr }).then((createdQuiz) => {
+      res.json(createdQuiz);
+    });
+  });
+});
+
+router.post("/quiz-hard", (req, res, next) => {
+  const { title } = req.body;
+
+  Question.find({difficulty: "Hard"})
+  .then((allQuestions) => {
     let randomArr = [];
     for (let i = 0; i <= 10; i++) {
       const random = Math.floor(Math.random() * allQuestions.length);

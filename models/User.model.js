@@ -19,7 +19,7 @@ const userSchema = new Schema({
   profileImage: {
     type: String,
     default:
-      "https://res.cloudinary.com/joaocbantunes/image/upload/v1654504135/quizzz/avatar_rzhacz.jpg",
+      "https://res.cloudinary.com/joaocbantunes/image/upload/v1654775245/quizzz-project/avatar_n2bnic.png",
   },
   createQuestion: [
     {

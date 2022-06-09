@@ -438,5 +438,958 @@
         "JavaScript"
       ],
       "difficulty": "Easy"
-    }
+    },
+    {
+      "question": "Which method is used to get the year of a date as a four-digit number?",
+      "answers": [
+        {
+          "answer": "getYear()",
+          "isCorrect": "false"
+        },
+        {
+          "answer": "fullYear()",
+          "isCorrect": "false"
+        },
+        {
+            "answer": "getFullYear()",
+            "isCorrect": "true"
+          },
+          {
+            "answer": "getfullyear()",
+            "isCorrect": "false"
+          }
+      ],
+      "tags": [
+        "JavaScript"
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What does the Date object's method getTime() return?",
+      "answers": [
+        {
+          "answer": "Date in DD-MM-YYYY format",
+          "isCorrect": "false"
+        },
+        {
+          "answer": "Date in DD MON YYYY format",
+          "isCorrect": "false"
+        },
+        {
+          "answer": "Date in MON, DD YYYY format",
+          "isCorrect": "false"
+        },
+        {
+          "answer": "Number of milliseconds since January 1, 1970",
+          "isCorrect": "true"
+        }
+      ],
+      "tags": [
+        "JavaScript"
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "question": "The internal clock in JavaScript counts from midnight _____",
+      "answers": [
+        {
+          "answer": "January 1, 1972",
+          "isCorrect": "false"
+        },
+        {
+          "answer": "January 1, 1947",
+          "isCorrect": "false"
+        },
+        {
+            "answer": "January 1, 1980",
+            "isCorrect": "false"
+        },
+        {
+            "answer": "January 1, 1970",
+            "isCorrect": "true"
+        }
+      ],
+      "tags": [
+        "JavaScript"
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "question": "Which JavaScript method is used to convert a date to a UTC string (a date display standard)?",
+      "answers": [
+        {
+          "answer": "toUTCString()",
+          "isCorrect": "true"
+        },
+        {
+          "answer": "'toUtcString()",
+          "isCorrect": "false"
+        },
+        {
+          "answer": "utcString()",
+          "isCorrect": "false"
+        },
+        {
+            "answer": "toutcstring()",
+            "isCorrect": "false"
+        }
+      ],
+      "tags": [
+        "JavaScript"
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "question": "Which JavaScript method is used to call a function (a callback function) once for each array element?",
+      "answers": [
+        {
+          "answer": "for()",
+          "isCorrect": "false"
+        },
+        {
+          "answer": "traverse()",
+          "isCorrect": "false"
+        },
+        {
+          "answer": "forEach()",
+          "isCorrect": "true"
+        },
+        {
+            "answer": "foreach()",
+            "isCorrect": "false"
+        }
+      ],
+      "tags": [
+        "JavaScript"
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "question": "Which JavaScript method is used to get a number as a string?",
+      "answers": [
+        {
+          "answer": "toString()",
+          "isCorrect": "true"
+        },
+        {
+          "answer": "intToString()",
+          "isCorrect": "false"
+        },
+        {
+          "answer": "parseInteger()",
+          "isCorrect": "false"
+        },
+        {
+          "answer": "All of the above",
+          "isCorrect": "false"
+        }
+      ],
+      "tags": [
+        "JavaScript"
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "question": "Which is/are the valid JavaScript method(s) to extract string parts?",
+      "answers": [
+        {
+          "answer": "slice(start, end)",
+          "isCorrect": "false"
+        },
+        {
+          "answer": "substring(start, end)",
+          "isCorrect": "false"
+        },
+        {
+          "answer": "substr(start, length)",
+          "isCorrect": "false"
+        },
+        {
+          "answer": "All of the above",
+          "isCorrect": "true"
+        }
+      ],
+      "tags": [
+        "JavaScript"
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "question": "In JavaScript a variable contains one value while an object may contain ___",
+      "answers": [
+        {
+          "answer": "One value",
+          "isCorrect": "false"
+        },
+        {
+          "answer": "Two values",
+          "isCorrect": "false"
+        },
+        {
+          "answer": "Three values",
+          "isCorrect": "false"
+        },
+        {
+          "answer": "Many values",
+          "isCorrect": "true"
+        }
+      ],
+      "tags": [
+        "JavaScript"
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "question": "Can we use a function as a variable value?",
+      "answers": [
+        {
+          "answer": "Yes",
+          "isCorrect": "true"
+        },
+        {
+          "answer": "No",
+          "isCorrect": "false"
+        }
+      ],
+      "tags": [
+        "JavaScript"
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "question": "Which is the correct syntax of JavaScript typeof operator?",
+      "answers": [
+        {
+          "answer": "typeof variable/value",
+          "isCorrect": "false"
+        },
+        {
+          "answer": "typeof(variable/value)",
+          "isCorrect": "false"
+        },
+        {
+          "answer": "Both A. and B.",
+          "isCorrect": "true"
+        },
+        {
+          "answer": "None of the above",
+          "isCorrect": "false"
+        }
+      ],
+      "tags": [
+        "JavaScript"
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "question": "Which JavaScript operator is used to determine the type of a variable?",
+      "answers": [
+        {
+          "answer": "typeof",
+          "isCorrect": "true"
+        },
+        {
+          "answer": "TypeOf",
+          "isCorrect": "false"
+        },
+        {
+          "answer": "typeOf",
+          "isCorrect": "false"
+        },
+        {
+          "answer": "sizeof",
+          "isCorrect": "true"
+        }
+      ],
+      "tags": [
+        "JavaScript"
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "question": "JavaScript types are _____.",
+      "answers": [
+        {
+          "answer": "Static",
+          "isCorrect": "false"
+        },
+        {
+          "answer": "Dynamic",
+          "isCorrect": "true"
+        } 
+      ],
+      "tags": [
+        "JavaScript"
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "question": "Does JavaScript support increment (++) and decrements (--) Operators?",
+      "answers": [
+        {
+          "answer": "Yes",
+          "isCorrect": "true"
+        },
+        {
+          "answer": "No",
+          "isCorrect": "false"
+        }
+      ],
+      "tags": [
+        "JavaScript"
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "question": "Which is the exponentiation operator in JavaScript?",
+      "answers": [
+        {
+          "answer": "exp()",
+          "isCorrect": "false"
+        },
+        {
+          "answer": "**",
+          "isCorrect": "true"
+        },
+        {
+          "answer": "^",
+          "isCorrect": "false"
+        },
+        {
+            "answer": "pow",
+            "isCorrect": "false"
+        }
+      ],
+      "tags": [
+        "JavaScript"
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "question": "Can be redeclare a variable that is declared with let keyword?",
+      "answers": [
+        {
+          "answer": "Yes",
+          "isCorrect": "false"
+        },
+        {
+          "answer": "No",
+          "isCorrect": "true"
+        }
+      ],
+      "tags": [
+        "JavaScript"
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "question": "Is JavaScript case-sensitive?",
+      "answers": [
+        {
+          "answer": "True",
+          "isCorrect": "true"
+        },
+        {
+          "answer": "False",
+          "isCorrect": "false"
+        }
+      ],
+      "tags": [
+        "JavaScript"
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "question": "Can be redeclare a variable that is declared with var keyword?",
+      "answers": [
+        {
+          "answer": "Yes",
+          "isCorrect": "true"
+        },
+        {
+          "answer": "No",
+          "isCorrect": "false"
+        }
+      ],
+      "tags": [
+        "JavaScript"
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the default value of an uninitialized variable?",
+      "answers": [
+        {
+          "answer": "0",
+          "isCorrect": "false"
+        },
+        {
+          "answer": "undefined",
+          "isCorrect": "true"
+        },
+        {
+          "answer": "null",
+          "isCorrect": "false"
+        },
+        {
+          "answer": "NaN",
+          "isCorrect": "false"
+        }
+      ],
+      "tags": [
+        "JavaScript"
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "question": "Which is the correct syntax to declare a constant in JavaScript?",
+      "answers": [
+        {
+          "answer": "const constant_name;",
+          "isCorrect": "false"
+        },
+        {
+          "answer": "constant_name const;",
+          "isCorrect": "false"
+        },
+        {
+          "answer": "constant_name const = value;",
+          "isCorrect": "false"
+        },
+        {
+            "answer": "const constant_name = value;",
+            "isCorrect": "true"
+          }
+      ],
+      "tags": [
+        "JavaScript"
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "question": "The const keyword is used to define a ______.",
+      "answers": [
+        {
+          "answer": "Function scopes variable",
+          "isCorrect": "false"
+        },
+        {
+          "answer": "Block scoped variable",
+          "isCorrect": "false"
+        },
+        {
+          "answer": "Constant",
+          "isCorrect": "true"
+        },
+        {
+            "answer": "Constant with no initial value",
+            "isCorrect": "false"
+          }
+      ],
+      "tags": [
+        "JavaScript"
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "question": "The events that are not triggered directly by user activity are called ___________",
+      "answers": [
+        {
+          "answer": "Device-independent input events",
+          "isCorrect": "false"
+        },
+        {
+          "answer": "Device-dependent input events",
+          "isCorrect": "false"
+        },
+        {
+            "answer": "User interface events",
+            "isCorrect": "false"
+          },
+          {
+            "answer": "State change events",
+            "isCorrect": "true"
+          }
+      ],
+      "tags": [
+        "JavaScript"
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "question": "The video and the audio belong to the _________",
+      "answers": [
+        {
+          "answer": "Timers and error handlers",
+          "isCorrect": "false"
+        },
+        {
+          "answer": "API-Specific events",
+          "isCorrect": "true"
+        },
+        {
+          "answer": "State change events",
+          "isCorrect": "false"
+        },
+        {
+          "answer": "User interface events",
+          "isCorrect": "false"
+        }
+      ],
+      "tags": [
+        "JavaScript"
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "question": "The client-side JavaScript asynchronous programming model contains _________",
+      "answers": [
+        {
+          "answer": "Timers and error handlers",
+          "isCorrect": "true"
+        },
+        {
+          "answer": "User interface events",
+          "isCorrect": "false"
+        },
+        {
+            "answer": "State change events",
+            "isCorrect": "false"
+        },
+        {
+            "answer": "API-specific events",
+            "isCorrect": "false"
+        }
+      ],
+      "tags": [
+        "JavaScript"
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "question": "Which are the events that have default actions that can be canceled by event handlers?",
+      "answers": [
+        {
+          "answer": "Submit and form-related events",
+          "isCorrect": "false"
+        },
+        {
+          "answer": "Reset and form-related events",
+          "isCorrect": "false"
+        },
+        {
+          "answer": "Submit and reset events",
+          "isCorrect": "true"
+        },
+        {
+            "answer": "form-related events",
+            "isCorrect": "false"
+        }
+      ],
+      "tags": [
+        "JavaScript"
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "question": "The events that represent occurrences related to the browser window are _________",
+      "answers": [
+        {
+          "answer": "Window",
+          "isCorrect": "true"
+        },
+        {
+          "answer": "Element",
+          "isCorrect": "false"
+        },
+        {
+          "answer": "Display",
+          "isCorrect": "false"
+        },
+        {
+            "answer": "Handlers",
+            "isCorrect": "false"
+        }
+      ],
+      "tags": [
+        "JavaScript"
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "question": "Which event is fired when a document and all of its external resources are fully loaded and displayed to the user?",
+      "answers": [
+        {
+          "answer": "Window",
+          "isCorrect": "false"
+        },
+        {
+          "answer": "Load",
+          "isCorrect": "true"
+        },
+        {
+          "answer": "Element",
+          "isCorrect": "false"
+        },
+        {
+          "answer": "Handler",
+          "isCorrect": "false"
+        }
+      ],
+      "tags": [
+        "JavaScript"
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "question": "Which is the alternative to the load event?",
+      "answers": [
+        {
+          "answer": "readychange",
+          "isCorrect": "false"
+        },
+        {
+          "answer": "changestate",
+          "isCorrect": "false"
+        },
+        {
+          "answer": "readystatechange",
+          "isCorrect": "true"
+        },
+        {
+          "answer": "contentloader",
+          "isCorrect": "false"
+        }
+      ],
+      "tags": [
+        "JavaScript"
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "question": "Which is the opposite of the load event in JavaScript?",
+      "answers": [
+        {
+          "answer": "dontload",
+          "isCorrect": "false"
+        },
+        {
+          "answer": "postload",
+          "isCorrect": "false"
+        },
+        {
+          "answer": "preload",
+          "isCorrect": "false"
+        },
+        {
+          "answer": "unload",
+          "isCorrect": "true"
+        }
+      ],
+      "tags": [
+        "JavaScript"
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "question": "Which is the property that is triggered in response to JavaScript errors?",
+      "answers": [
+        {
+          "answer": "onexception",
+          "isCorrect": "false"
+        },
+        {
+          "answer": "onmessage",
+          "isCorrect": "false"
+        },
+        {
+            "answer": "onerror",
+            "isCorrect": "true"
+        },
+        {
+            "answer": "onclick",
+            "isCorrect": "false"
+        }
+      ],
+      "tags": [
+        "JavaScript"
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "question": "Which event can be fired on any scrollable document element?",
+      "answers": [
+        {
+          "answer": "Window",
+          "isCorrect": "false"
+        },
+        {
+          "answer": "Scroll",
+          "isCorrect": "true"
+        },
+        {
+          "answer": "Load",
+          "isCorrect": "false"
+        },
+        {
+          "answer": "Unload",
+          "isCorrect": "false"
+        }
+      ],
+      "tags": [
+        "JavaScript"
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What must be done in order to implement Lexical Scoping?",
+      "answers": [
+        {
+          "answer": "Get the object",
+          "isCorrect": "false"
+        },
+        {
+          "answer": "Dereference the current scope chain",
+          "isCorrect": "false"
+        },
+        {
+          "answer": "Reference the current scope chain",
+          "isCorrect": "true"
+        },
+        {
+          "answer": "Return the value",
+          "isCorrect": "false"
+        }
+      ],
+      "tags": [
+        "JavaScript"
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "question": "Which of the following uses a lot of CPU cycles?",
+      "answers": [
+        {
+          "answer": "GUI",
+          "isCorrect": "false"
+        },
+        {
+          "answer": "Statically generated graphics",
+          "isCorrect": "false"
+        }, 
+        {
+            "answer": "Dynamically generated graphics",
+            "isCorrect": "true"
+          }, 
+        {
+            "answer": "Generic scoping",
+            "isCorrect": "false"
+        }
+      ],
+      "tags": [
+        "JavaScript"
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is the opposite approach to the lexical scoping?",
+      "answers": [
+        {
+          "answer": "Literal scoping",
+          "isCorrect": "false"
+        },
+        {
+          "answer": "Static scoping",
+          "isCorrect": "false"
+        },
+        {
+            "answer": "Dynamic scoping",
+            "isCorrect": "true"
+        },
+        {
+            "answer": "Generic scoping",
+            "isCorrect": "false"
+        }
+      ],
+      "tags": [
+        "JavaScript"
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "question": "Which of the algorithmic languages is not lexical scoping standardized in?",
+      "answers": [
+        {
+          "answer": "Ada",
+          "isCorrect": "false"
+        },
+        {
+          "answer": "Pascal",
+          "isCorrect": "false"
+        },
+        {
+          "answer": "Modula2",
+          "isCorrect": "false"
+        },
+        {
+            "answer": "HTML",
+            "isCorrect": "true"
+        }
+      ],
+      "tags": [
+        "JavaScript"
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What of the following is used in React.js to increase performance?",
+      "answers": [
+        {
+          "answer": "Original DOM",
+          "isCorrect": "false"
+        },
+        {
+          "answer": "Virtual DOM",
+          "isCorrect": "true"
+        },
+        {
+            "answer": "Both A and B.",
+            "isCorrect": "false"
+        },
+        {
+            "answer": "None of the above.",
+            "isCorrect": "false"
+        }
+      ],
+      "tags": [
+        "JavaScript"
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "question": "A class is a type of function, but instead of using the keyword function to initiate it, which keyword do we use?",
+      "answers": [
+        {
+          "answer": "Constructor",
+          "isCorrect": "false"
+        },
+        {
+          "answer": "Class",
+          "isCorrect": "true"
+        },
+        {
+            "answer": "Object",
+            "isCorrect": "false"
+        },
+        {
+            "answer": "DataObject",
+            "isCorrect": "false"
+        }
+      ],
+      "tags": [
+        "JavaScript"
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What are the different types of errors in JavaScript?",
+      "answers": [
+        {
+          "answer": "Load time errors",
+          "isCorrect": "false"
+        },
+        {
+          "answer": "Run time errors",
+          "isCorrect": "true"
+        },
+        {
+            "answer": "Logical Errors",
+            "isCorrect": "false"
+        },
+        {
+            "answer": "All of the above",
+            "isCorrect": "false"
+        }
+      ],
+      
+      "tags": [
+        "JavaScript"
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What are the different types of Pop up boxes available in JavaScript?",
+      "answers": [
+        {
+          "answer": "Alert",
+          "isCorrect": "false"
+        },
+        {
+          "answer": "Prompt",
+          "isCorrect": "false"
+        },
+        {
+          "answer": "Confirm",
+          "isCorrect": "false"
+        },
+        {
+          "answer": "All of the above",
+          "isCorrect": "true"
+        }
+      ],
+      "tags": [
+        "JavaScript"
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What are the three crucial manipulations done in a 'for loop' on a loop variable in JavaScript?",
+      "answers": [
+        {
+          "answer": "The initialization, the Increment, and update",
+          "isCorrect": "false"
+        },
+        {
+          "answer": "The initialization, the test, and the update",
+          "isCorrect": "true"
+        },
+        {
+          "answer": "The initialization, the test, and Increment",
+          "isCorrect": "false"
+        },
+        {
+          "answer": "All of the above",
+          "isCorrect": "false"
+          }
+      ],
+      "tags": [
+        "JavaScript"
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "question": "Which of the following variables are used in JavaScript programs?",
+      "answers": [
+        {
+          "answer": "Varying randomly",
+          "isCorrect": "false"
+        },
+        {
+          "answer": "Causing high-school algebra flashbacks",
+          "isCorrect": "false"
+        },
+        {
+          "answer": "Storing numbers, dates, or other values",
+          "isCorrect": "true"
+        },
+        {
+            "answer": "None of the above",
+            "isCorrect": "false"
+          }
+      ],
+      "tags": [
+        "JavaScript"
+      ],
+      "difficulty": "Hard"
+    } 
   ]
